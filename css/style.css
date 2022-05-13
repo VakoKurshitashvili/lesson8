@@ -1,0 +1,145 @@
+
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+.block{
+    width: 370px;
+    height: 450px;
+    background-color: aqua;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.line1{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.line2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 60px;
+}
+
+.image{
+
+    width: 150px;
+}
+
+.block p {
+    width: 328px;
+    background-color: brown;
+    text-align: center;
+}  
+
+.block a {
+    width: 131px;
+    height: 45px;
+    border-radius: 23px;
+    background-color: bisque;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+
+.title-block{
+    width: 712px;
+    margin: 0 auto;
+    background-color: chartreuse;
+    text-align: center;
+}
+
+
+/* pseudo classes */
+
+.block:nth-child(1) {
+    background-color: blue;
+    margin-bottom: 60px;
+}
+
+.block:nth-child(2) {
+    background-color: red;
+    margin-bottom: 60px;
+    
+}
+
+.block:nth-child(3) {
+    background-color: pink;
+    margin-bottom: 60px;
+    
+}
+
+.block:nth-child(4) {
+    background-color: green;
+
+}
+
+.block:nth-child(5) {
+    background-color: gray;
+}
+
+.block:nth-child(5) {
+    background-color: purple;
+}
+
+.block:nth-child(2) h3{
+    color: white;
+}
+/* icons */
+.fa-facebook-messenger{
+    font-size: 30px;
+    color: blue;
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+.fa-youtube{
+    font-size: 30px;
+    color: red;
+    -webkit-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
+
+
+.fa-youtube:hover{
+    color: grey;
+    
+}
+
+.fa-facebook-messenger:hover{
+    color: azure;
+}
